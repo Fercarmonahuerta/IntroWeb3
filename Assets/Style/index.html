@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a Css</title>
+    <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+    <!--
+        Tenemos tres formas distintas de agregar estilos a un documento html 
+        1. Inline (en línea) Para trabajar con los estilos in line utilizamos la palabra reservada style y con esto le damos la instrucción de lo que queremos añadir. Tiene mayor jerarquía sobre la etiqueta style
+    -->
+    <h1>inline</h1>
+   <p style="color: darkorchid; background-color: blanchedalmond; font-size: xx-large;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus enim reiciendis debitis magnam cupiditate neque perspiciatis quisquam eum recusandae omnis, officiis voluptatem aliquid. Quasi incidunt id sit impedit quos odit!</p>
+
+   <!--Utilizando la etiqueta <style>
+        Cuando usamos los estilos dentro de la etiqueta style, separamos los estilos de etiqueta
+-->
+    <style>
+          body{
+            background-color: pink;
+        }
+    </style>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nulla quas quis commodi aliquam, ipsum accusamus dolore voluptatibus rerum dolor debitis numquam dolorem velit cumque id voluptate, at veritatis ipsam.</p>
+    
+   <!--Rerencia a un documento de estilos externo (buena práctica)
+    código más limpio
+    más entendible
+    velocidad de lectura
+    escalabilidad
+    Utilizar estilos de un documento externo significa que vamoas a tener dos documentos; uno para html index.html con la estructura y por otro lado tenemos el documento llamado style.css para darle estilo
+-->   
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius beatae velit, <p contenteditable="true" id="cambios">Tu palabra editable aquí</p>atque at quis ducimus doloribus. Ex, assumenda. Quos dignissimos soluta ipsam cum, veniam voluptas minima deleniti error harum dolor?</p>
+<!--Clases y ID
+Todos pertenecemos a la clase CH35 nuestro ID sería nuestro nombre
+La palabra reservada class (.)
+la palabra reservada id (#)
+-->
+    <div class="alumnos">
+        <h2 class="CH35" id="Rey">Rey</h2>
+        <h2 class="CH35" id="Marco">Marco</h2>
+    </div>
+    <div>
+<h2 class="CH35" id="Uriel">Uriel</h2>
+<h2 class="CH35" id="Rene">Rene</h2>
+    </div>
+
+<!--El modelo de caja nos permite establecer el diseño de nuestros sitios web, ya que hace que nuestros elementos se presenten en formas rectangulares y de esta forma podemos modificar el aspecto-->
+
+</body>
+</html>

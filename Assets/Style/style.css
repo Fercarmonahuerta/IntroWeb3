@@ -1,0 +1,33 @@
+p{
+    background-color: blue;
+    
+}
+#Rey{
+    color:darkcyan;
+
+}
+
+#Rene{
+    color:crimson;
+}
+
+.CH35{
+    background-color: yellowgreen;
+    color: blue;
+}
+
+#cambios{
+    color:red;
+}
+
+div{
+    height: 200;
+    width: 200;
+    margin: 20px 50px;
+    border: solid white;
+    padding: 30px;
+}
+
+.alumnos{
+    font-size:larger;
+}

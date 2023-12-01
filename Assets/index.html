@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a Css</title>
+    <link rel="stylesheet" href="./style.ccs"
+</head>
+<body>
+    <!--
+        Tenemos tres formas distintas de agregar estilos a un documento html 
+        1. Inline (en línea) Para trabajar con los estilos in line utilizamos la palabra reservada style y con esto le damos la instrucción de lo que queremos añadir. Tiene mayor jerarquía sobre la etiqueta style
+    -->
+    <h1>inline</h1>
+   <p style="color: darkorchid; background-color: blanchedalmond; font-size: xx-large;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus enim reiciendis debitis magnam cupiditate neque perspiciatis quisquam eum recusandae omnis, officiis voluptatem aliquid. Quasi incidunt id sit impedit quos odit!</p>
+
+   <!--Utilizando la etiqueta <style>
+        Cuando usamos los estilos dentro de la etiqueta style, separamos los estilos de etiqueta
+-->
+    <style>
+          body{
+            background-color: pink;
+        }
+    </style>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nulla quas quis commodi aliquam, ipsum accusamus dolore voluptatibus rerum dolor debitis numquam dolorem velit cumque id voluptate, at veritatis ipsam.</p>
+    
+   <!--Rerencia a un documento de estilos externo (buena práctica)
+    código más limpio
+    más entendible
+    velocidad de lectura
+    escalabilidad
+    Utilizar estilos de un documento externo significa que vamoas a tener dos documentos; uno para html index.html con la estructura y por otro lado tenemos el documento llamado style.css para darle estilo
+-->   
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius beatae velit, atque at quis ducimus doloribus. Ex, assumenda. Quos dignissimos soluta ipsam cum, veniam voluptas minima deleniti error harum dolor?</p>
+</body>
+</html>
